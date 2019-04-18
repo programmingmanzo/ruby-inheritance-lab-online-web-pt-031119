@@ -6,6 +6,7 @@ class Teacher < User
   
   def teach 
     KNOWLEDGE.sample(rand)
+    binding.pry 
   end 
 
   
