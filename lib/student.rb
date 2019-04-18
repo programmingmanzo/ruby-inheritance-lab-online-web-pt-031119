@@ -10,5 +10,9 @@ class Student < User
   def knowledge 
     @knowledge
   end 
+  
+  def learn(string) 
+    @knowledge << string 
+  end 
 
 end
