@@ -6,6 +6,7 @@ class Teacher < User
   
   def teach 
     KNOWLEDGE.sample(random: rng)
+  end 
 
   
 end
